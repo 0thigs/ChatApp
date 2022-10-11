@@ -1,12 +1,101 @@
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+    border-radius: 0 10px 10px 0;
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+    border-radius: 0 10px 10px 0;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: rgb(42, 152, 167);
+    border-radius: 0 10px 10px 0;
+	background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,transparent 75%, transparent)
+}
+
+* {
+    user-select: none;
+}
+
 .container {
-    height: 34rem;
+    height: 38rem;
     width: 39.3rem;
     border-radius: 10px;
     overflow: scroll;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 9.5px );
-    -webkit-backdrop-filter: blur( 9.5px );
+    background: rgba(168, 168, 168, 0.103);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.form {
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.input {
+    border-style: solid;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    background-color: #3d3d3d;
+    padding: 14px;
+    outline: none;
+}
+.input::placeholder {
+    color: rgb(173, 173, 173);
+}
+
+.button {
+    width: 50px;
+    height: 35px;
+    border-radius: 100px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(200deg, #3c9fc3 60%, #0975f1 100%);
+}
+.button:hover {
+    background: linear-gradient(200deg, #3c9fc3 10%, #0975f1 100%);
+}
+.button:active {
+    background: #0975f1;
+}
+
+svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    transform: scale(1.5);
+    color: black;
+}
+
+#name {
+    width: 100px;
+}
+
+#message {
+    width: 100%;
 }

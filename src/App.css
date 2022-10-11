@@ -1,9 +1,9 @@
 .main-container {
   display: flex;
-  background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url("https://images.hdqwalls.com/download/dark-abstract-black-minimal-4k-q0-2560x1440.jpg");
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
