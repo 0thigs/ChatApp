@@ -37,3 +37,24 @@
 .text { 
     text-align: left;
 }
+
+/*
+--------------RESPONSIVIDADE-----------------
+*/
+
+
+@media (max-width: 660px) {
+    .card {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: scroll;
+    }
+    .text {
+        width: 50px;
+    }
+    .image-name {
+        width: 250px;
+    }
+}

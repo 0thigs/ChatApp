@@ -99,3 +99,30 @@ svg {
 #message {
     width: 100%;
 }
+
+
+/*
+-------------------------RESPONSIVIDADE-------------------------
+*/
+
+@media (max-width: 660px)
+{
+    .container
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+    .button {
+        width: 100px;
+    }
+    svg {
+        transform: scale(1.2);
+    }
+    #name {
+        width: 100%;
+    }
+    #message {
+        width: 100%;
+    }
+
+}
