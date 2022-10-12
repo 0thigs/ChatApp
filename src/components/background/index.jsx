@@ -10,9 +10,20 @@ export default function Background() {
     const { username, content} = message;
 
     useEffect(() => {
+        const profiles = supabase
+        .from('profiles')
+        .on('*', payload => {
+            setMessages(payload)
+        })
+        .subscribe()
+        return supabase.unsubscribe()
+    }, [])
+
+    useEffect(() => {
         Init()
     }, [])
 
+    //Seleciona a tabela PROFILES e joga o retorno para dentro de MESSAGES
     async function Init() {
         const { data: profiles } = await supabase
         .from('profiles')
@@ -20,6 +31,7 @@ export default function Background() {
         setMessages(profiles)
     }
 
+    //Insere USERNAME e CONTENT dentro da tabela
     async function createPost() {
         await supabase
         .from('profiles')
@@ -33,7 +45,7 @@ export default function Background() {
     }
 
     function submit(){
-        localStorage.setItem(message.username);
+        localStorage.setItem("name", message.username);
     }
 
     return (
@@ -78,10 +90,10 @@ export default function Background() {
                     xmlns="http://www.w3.org/2000/svg"   
                     viewBox="0 0 24 24" fill="none" 
                     stroke="currentColor" 
-                    stroke-width="2" 
-                    stroke-linecap="round" 
-                    stroke-linejoin="round" 
-                    class="feather feather-send">
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    className="feather feather-send">
                         <line 
                             x1="22" 
                             y1="2" 
