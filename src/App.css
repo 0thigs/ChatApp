@@ -9,3 +9,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.separator {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  /* position: sticky */
+}
