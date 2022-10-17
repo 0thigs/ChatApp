@@ -13,6 +13,8 @@
   display: flex;
   flex-direction: column;
 }
-.form {
-  /* position: sticky */
+
+@media (max-width: 660px) {
+  .main-container {
+  }
 }
