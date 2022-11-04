@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# REALTIME CHAT APP 
 
-## Available Scripts
+A Global Room Realtime Chat app used to send messages for everyone connected!!
 
-In the project directory, you can run:
+**If you want to run the application just click [here](https://thigs-chat.vercel.app/)** 👈👈
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## What's the technology stack?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **ReactJS**
+- **Supabase**
+- **Javascript**
+- **CSS**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Preview:
 
-### `npm run build`
+#### This is the Chat👇👇:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://i.imgur.com/gPzV497.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+There are the **Username** and the **Message** input and the Message's place.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### This is The Chat With Message👇👇:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](https://i.imgur.com/cE1ojO4.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Message Icons are **generated automatically** accordingly of your name!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Some Information:
 
-## Learn More
+- You can Send and Receive messages of anyone;
+- Your Icon is generated automatically;
+- Your name remains in the input;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# What skills I Learned and I used?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Database Principles;**
+- **Async/Await**
+- **Promises**
+- **Asynchronous Js**
+- **Arrays Properties**
+- **ReactJs MindSet;**
+- **Component Function;**
+- **CSS FlexBox;**
+- **Structuring of a page with HTML.**
 
-### Code Splitting
+# Download
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After Download you can install the dependencies with:
 
-### Analyzing the Bundle Size
+`npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*If you don´t have the vite installed!*
 
-### Making a Progressive Web App
+`npm create vite@latest`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+And run with:
 
-### Advanced Configuration
+`npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Let's Code 💻
